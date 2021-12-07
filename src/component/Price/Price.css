@@ -1,0 +1,52 @@
+.pricing{
+    padding:70px 0px;
+    background-image: url("https://images.unsplash.com/photo-1515175192010-cf3250992719?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTI1fHxsaXZlJTIwc2luZ2luZyUyMHBlcmZvcm1hbmNlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+    background-attachment: fixed;
+}
+.text-align-left{
+    display: block;
+    margin:auto;
+    text-align: left;
+    padding-left: 0px;
+    margin-bottom: 40px;
+}
+.pricing .sm-heading{
+    margin-bottom: 45px;
+}
+/* below,add new style for li for aligning vertical-straight */
+.pricing .card-deck{
+    padding: 0 5%;
+    margin: 0;
+}
+.pricing li{
+    list-style: none;
+}
+.pricing i{
+    color: #e91e63;
+}
+.icon-top{
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.price{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.pricing .card div{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 992px){
+    .pricing-card{
+        margin-top: 20px;
+    }
+}
+@media (max-width:576px) and (min-width:360px)
+{
+    .text-align-left{
+        padding-left: 0px;
+        margin-left:50px;
+    }
+}
+

@@ -1,0 +1,17 @@
+/* Section Event Guildline ------------------------------------------------------------------------------------------*/
+
+.guidline{
+    padding: 0 5%;
+}
+.guidline-para{
+    margin-bottom: 45px;
+}
+.guidline ul{
+    padding-inline-start: 0;
+}
+.guidline li{
+    list-style: none;
+}
+.guideline-image>img{
+    width:100%;
+}
