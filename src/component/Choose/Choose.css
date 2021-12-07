@@ -1,0 +1,26 @@
+.margin-block{
+    width:90%;
+    margin:auto;
+}
+.why-you-choose{
+    padding:70px 0px;
+}
+.why-you-choose>p{
+    margin-bottom: 70px;
+}
+.small-box{
+    padding:40px 40px !important;
+    border:0.1px solid rgb(219, 218, 218);
+    margin-top:10px;
+}
+.small-box>i{
+    padding-bottom:20px;
+}
+.small-box:hover{
+    background-color: #f3f4f3;
+}
+
+.small-box:hover .fa-heart,.small-box:hover .fa-newspaper,.small-box:hover .fa-envelope,.small-box:hover .fa-trophy,.small-box:hover .fa-user,.small-box:hover .fa-comment{
+    color:  rgb(233, 30, 99);
+}
+

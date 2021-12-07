@@ -1,0 +1,44 @@
+/* part EVENT WILL START IN */
+
+.event-start-time{
+    display: block;
+    padding:50px 0px;
+    margin:auto;
+}
+.event-start-time>h3{
+    margin:50px 0px;
+}
+.event-start-time h5{
+    font-size: 35px;
+    font-weight: 700;
+}
+.event-start-time>button{
+    display: block;
+    margin:auto;
+    margin-top:40px;
+}
+.time-part-div{
+    display: inline-block;
+    box-shadow: 4px 5px 24px 7px #aaaaaa;;
+    padding:5px;
+    height:91px;
+    width:83px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.event-start-time .btn-slide3{
+    border: none;
+}
+.event-start-time .bg-hotpink:hover{
+    background-color: #f62459;
+}
+
+@media (min-width:770px){
+    .time-part-div{
+        width:120px;
+        height:100px;
+        padding:20px;
+        margin:10px;
+    }
+}

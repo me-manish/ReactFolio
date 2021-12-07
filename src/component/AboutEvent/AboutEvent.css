@@ -1,0 +1,55 @@
+/* about-Event */
+
+.about-event h4{
+    margin-bottom: 0;
+}
+.about-event .sm-heading{
+    margin-bottom: 30px;
+}
+.btn-darkpink{
+    border:1px solid gray;
+}
+.btn-darkpink:hover{
+    color:white;
+}
+.about-event{
+    padding: 65px 65px;
+}
+.event-discript-box{
+    margin:auto;
+    padding:20px;
+    padding-bottom:50px;
+}
+.about-event .card-deck{
+    margin: 0;
+}
+.time-box{
+    padding:80px 0px;
+}
+.icon-time-box{
+    margin-bottom: 25px;
+}
+.time-div{
+    padding:30px;
+}
+
+@media screen and (max-width: 768px){
+ .about-event .col-lg-4{
+     text-align: -webkit-center;
+ }
+ .about-event .card{
+     width: 25rem;
+     margin-bottom: 25px;
+     text-align: left;
+ }
+}
+
+@media screen and (max-width : 500px){
+    .about-event{
+        padding: 0%;
+    }
+    .about-event .card{
+        width: 100%;
+    }
+}
+

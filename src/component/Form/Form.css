@@ -1,0 +1,35 @@
+/* drop- message */
+
+.form-box{
+    display:block;
+    margin:auto;
+    width:100%;
+    margin-top:80px;
+}
+.form-design{
+    box-shadow: 1px 1px 15px rgb(197, 197, 197);
+    padding: 50px;
+    margin-top:80px;
+}
+.input_box-width{
+    display: inline-block;
+    width:49%;
+}
+.input-float{
+    float: right;
+}
+.submit-btn{
+    width:100%;
+}
+
+@media (max-width:770px){
+    .input_box-width{
+        width:100%;
+    }
+}
+@media (max-width:350px)
+{
+    .form-design{
+        padding:20px;
+    }
+}

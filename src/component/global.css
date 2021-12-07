@@ -1,0 +1,55 @@
+/* global class */
+
+.padding-top-bottom{
+    padding-top:60px !important;
+    padding-bottom:60px !important;
+}
+.c-align{
+    text-align: center;
+}
+.p-abs{
+    position: absolute;
+}
+.p-fix{
+    position: fixed;
+}
+.dp-none{
+    display: none;
+}
+.bg-heading{
+    font-family: Josefin Sans, sans-serif;
+    font-size: 40px;
+}
+.bg-hotpink{
+    background-color: #e91e63;
+}
+.bg-f3f4f3{
+background-color: #f3f4f3;
+}
+.fc-white{
+    color: #ffffff;
+}
+.fc-hotpink{
+    color: #e91e63 !important;
+}
+.z-2{
+    z-index: 2;
+}
+.tra-500{
+    transition: 0.5s;
+}
+.tra-300{
+    transition: 0.3s;
+}
+.tb-none{
+    border-top: none !important;
+}
+.href-about,.href-schedules,.href-gallary,.href-faq,.href-sponsors,.href-pricing,.href-contact{
+    height: 25px !important;
+}
+
+@media screen and (max-width: 700px){
+    .bg-heading{
+        font-size: 36px;
+    }
+}
